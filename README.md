@@ -14,7 +14,6 @@
 <body ng-controller="testcontroller">
 <h1>Treeview</h1>
 
-<h2>Description</h2>
 <span>Angularjs treeview with three stated checkbox</span>
 
 <h2>Properties</h2>
@@ -53,7 +52,6 @@
 </pre>
 <br/>
 <h3>Result</h3>
-<div treeview treeview-label="name" treeview-child="childs" treeview-source="dataSource"
-     treeview-target="dataTarget"></div>
+<img src="result.png"/>
 </body>
 </html>
