@@ -47,7 +47,7 @@ angular.module('testmodule', ['treemodule']).controller('testcontroller', functi
 <h3>Html Code</h3>
 <pre>
     <code>
-        &lt;div treeview-id="id"
+        &lt;div    treeview-id="id"
                 treeview treeview-label="name"
                 treeview-child="childs"
                 treeview-source="dataSource"
