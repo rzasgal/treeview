@@ -18,6 +18,7 @@
 
 <h2>Properties</h2>
 <ul>
+    <li>treeviewId</li>
     <li>treeviewLabel</li>
     <li>treeviewChild</li>
     <li>treeviewSource</li>
