@@ -2,14 +2,14 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
-    <link rel="stylesheet" href="src/main/webapp/css/bootstrap.css">
-    <link href="src/main/webapp/css/bootstrap-theme.css">
-    <script type="text/javascript" src="src/main/webapp/js/jquery-2.1.1.js"></script>
-    <script type="text/javascript" src="src/main/webapp/js/bootstrap.js"></script>
-    <script type="text/javascript" src="src/main/webapp/js/angular.js"></script>
-    <script type="text/javascript" src="src/main/webapp/js/tree.js"></script>
-    <script type="text/javascript" src="src/main/webapp/js/testmodule.js"></script>
-    <link rel="stylesheet" href="src/main/webapp/css/treeview.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="bootstrap-theme.css">
+    <script type="text/javascript" src="jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="bootstrap.js"></script>
+    <script type="text/javascript" src="angular.js"></script>
+    <script type="text/javascript" src="tree.js"></script>
+    <script type="text/javascript" src="testmodule.js"></script>
+    <link rel="stylesheet" href="treeview.css">
 </head>
 <body ng-controller="testcontroller">
 <h1>Treeview</h1>
@@ -60,5 +60,6 @@ angular.module('testmodule', ['treemodule']).controller('testcontroller', functi
 <br/>
 <h3>Result</h3>
 <img src="result.png"/>
+<div treeview treeview-id="id" treeview-label="name" treeview-child="childs" treeview-source="dataSource" treeview-target="dataTarget"></div>
 </body>
 </html>
