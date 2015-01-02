@@ -28,16 +28,18 @@
 <h3>Javascript</h3>
 <pre>
     <code>
-        angular.module('testmodule', ['treemodule']).controller('testcontroller', function($scope){
-            $scope.dataSource = [{
-            name: 'test1',
-            childs: [{name: 'test3',
-            childs: [{name: 'test5'},
-            {name: 'test6'}]},
-            {name: 'test2'}]
-            }];
-            $scope.dataTarget =[];
-        })
+angular.module('testmodule', ['treemodule']).controller('testcontroller', function ($scope) {
+    $scope.dataSource = [{
+        id: 1, name: 'test1',
+        childs: [{
+            id: 2, name: 'test3',
+            childs: [{id: 3, name: 'test5'},
+                {id: 4, name: 'test6'}]
+        },
+            {id: 5, name: 'test2'}]
+    }];
+    $scope.dataTarget = [{id: 2, name: 'test3'}];
+})
     </code>
 </pre>
 
@@ -45,8 +47,11 @@
 <h3>Html Code</h3>
 <pre>
     <code>
-        &lt;div treeview-id="id" treeview treeview-label="name" treeview-child="childs" treeview-source="dataSource"
-        treeview-target="dataTarget"&gt;
+        &lt;div treeview-id="id"
+                treeview treeview-label="name"
+                treeview-child="childs"
+                treeview-source="dataSource"
+                treeview-target="dataTarget"&gt;
         &lt;/div&gt;
     </code>
 </pre>
