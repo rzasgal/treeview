@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html ng-app="testmodule">
 <head lang="en">
     <meta charset="UTF-8">
