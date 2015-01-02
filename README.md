@@ -45,7 +45,7 @@
 <h3>Html Code</h3>
 <pre>
     <code>
-        &lt;div treeview treeview-label="name" treeview-child="childs" treeview-source="dataSource"
+        &lt;div treeview-id="id" treeview treeview-label="name" treeview-child="childs" treeview-source="dataSource"
         treeview-target="dataTarget"&gt;
         &lt;/div&gt;
     </code>
